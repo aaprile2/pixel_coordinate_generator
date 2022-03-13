@@ -12,7 +12,7 @@ docker image build -t [name] .
 Then, run the application:
 
 ```
-docker run --rm -it --p 8080:5000 [name]
+docker run --rm -it -p 8080:5000 [name]
 ```
 
 **Note:** Make sure in the file _main.py_, line 13 is commented out; i.e., the host IP address is unspecified (0.0.0.0). 
@@ -26,7 +26,7 @@ docker pull aaprile22/pixel_gen:latest
 
 Then, run the application:
 ```
-docker run --rm -it --p 8080:5000 aaprile22/pixel_gen:latest
+docker run --rm -it -p 8080:5000 aaprile22/pixel_gen:latest
 ```
 
 ### Run with Python
