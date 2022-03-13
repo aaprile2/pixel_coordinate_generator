@@ -51,15 +51,18 @@ python main.py
 **Note:** Make sure in the file _main.py_, line 12 is commented out; i.e., the host IP address is localhost (default). 
 
 ## Making Requests
+A full demonstration of the API is provided in _Demo_Test.ipynb_.
+
 ### Hosts
 As noted above, hosting the API with a Docker image versus a locally run Python application requires different IP addresses. 
 
-For the Docker applications, requests should be sent to **http://127.0.0.1:8080/[endpoint]**. Otherwise, there will be a 403 (Forbidden) error.
-For the locally run applications, requests should be sent to **http://127.0.0.1:5000/[endpoint]**. Otherwise, there will be a HTTPConnectionPool (Failed) error.
+* For the Docker applications, requests should be sent to **http://127.0.0.1:8080/[endpoint]**. Otherwise, there will be a 403 (Forbidden) error.
+
+* For the locally run applications, requests should be sent to **http://127.0.0.1:5000/[endpoint]**. Otherwise, there will be a HTTPConnectionPool (Failed) error.
 
 
 ### POST: compute_coordinates
-This endpoint computes pixel coordinate values for an image that is to be displayed on a 2D surface, given the dimensions of the image and teh corner points of the image as it is to be displayed.
+This endpoint computes pixel coordinate values for an image that is to be displayed on a 2D surface, given the dimensions of the image and the corner points of the image as it is to be displayed.
 
 Example:
 
