@@ -133,6 +133,8 @@ You should see the following, indiciating all tests were passed:
 
 ![Screen Shot 2022-03-12 at 11 15 24 PM](https://user-images.githubusercontent.com/49654275/158044812-cad7d968-9322-47e2-abdf-1565ee889ee5.png)
 
+**Note:** Make sure in the file _main.py_, line 12 is commented out; i.e., the host IP address is localhost (default).
+
 
 ## Implementation Notes
 * Some, but not all, cases of incorrect request arguments are handled by error codes. 
