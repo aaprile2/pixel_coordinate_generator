@@ -123,7 +123,7 @@ pipenv install pytest
 pip install pytest
 ```
 
-To run the tests, navigate to the root of the project directory and run:
+To run the tests, clone the repository and navigate to the root of the project directory, then run:
 
 ```
 python -m pytest
