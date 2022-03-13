@@ -134,5 +134,10 @@ You should see the following, indiciating all tests were passed:
 ![Screen Shot 2022-03-12 at 11 15 24 PM](https://user-images.githubusercontent.com/49654275/158044812-cad7d968-9322-47e2-abdf-1565ee889ee5.png)
 
 
+## Implementation Notes
+* Some, but not all, cases of incorrect request arguments are handled by error codes. 
+* In the interest of time, I only made the Dockerfile run the API service, and didn't include the testing. In the future, I would put separate Dockerfiles in the _api_ and _tests_ directories, and maybe experiment with multiservices. 
+* The _plot_coordinates_ endpoint was not required, but I thought it would be a nice additional feature. In practice, it is not really that useful given how few lines of code it takes to generate a graph, but I enjoyed experimenting with buffering to make it work. 
 
+Thank you!!
 
