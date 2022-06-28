@@ -1,5 +1,5 @@
 # pixel_coordinate_generator
-This is intended as demonstration of Docker and unit testing skills.
+This is intended as demonstration of Docker and unit testing (using Pytest) skills.
 
 API to compute the pixel coordinate values for an image that is to be displayed on a 2D surface, given the dimensions of the image and the corner points of the image as it is to be displayed. Includes plotting and testing functionality as well.
 
